@@ -9,7 +9,6 @@ const nextConfig: NextConfig = {
   env: { NEXT_PUBLIC_BASE_PATH: BASE_PATH },
   images: { unoptimized: true },
   cacheComponents: true,
-  partialPrefetching: true,
 };
 
 export default nextConfig;
