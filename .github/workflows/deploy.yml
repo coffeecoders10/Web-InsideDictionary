@@ -26,4 +26,4 @@ jobs:
           npm install
           npm run build
 
-          pm2 restart InsideDictionary  --output /srv/logs/InsideDictionary/console.log --error /srv/logs/InsideDictionary/error.log
+          pm2 restart InsideDictionary
